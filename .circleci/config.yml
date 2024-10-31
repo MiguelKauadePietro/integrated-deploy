@@ -21,7 +21,7 @@ jobs:
       # Podemos mudar o executor com o comando a seguir e um dos valores possíveis:
       # lista de resource classes: https://circleci.com/docs/using-docker/#available-docker-resource-classes
       # resource_class: <class>
-    resource_class: small
+    resource_class: medium
     steps:
       - checkout
       - run:
